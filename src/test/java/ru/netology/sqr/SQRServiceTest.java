@@ -11,7 +11,7 @@ public class SQRServiceTest {
         public void test () {
            SQRService service = new SQRService ();
 
-           int actual = service.theBestCalc (200 - 300);
+           int actual = service.theBestCalc (200, 300);
            int expected = 3;
 
                 assertEquals (expected, actual);
